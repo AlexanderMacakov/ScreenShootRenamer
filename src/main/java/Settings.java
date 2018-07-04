@@ -6,7 +6,7 @@ public class Settings {
 
     BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
     static String nameSetings = "Настройки";
-    static String path = "D:\\ScreenShootRenamer\\Settings";
+    static String path = "\\";
 
 
     public Settings() throws FileNotFoundException {
@@ -23,15 +23,17 @@ public class Settings {
 
     public String getDate() {
         Date dateNow = new Date();
-        SimpleDateFormat formatForDateNow = new SimpleDateFormat("yyyy.MM.dd");
+        SimpleDateFormat formatForDateNow = new SimpleDateFormat("dd.MM.yyyy");
         return formatForDateNow.format(dateNow);
     }
 
 
 
     public void printAbout() {
+        System.out.println("--------------------------------------------------------------");
         System.out.println("1) путь директории");
         System.out.println("2) изменить путь");
         System.out.println("3) Вернуться назад");
+
     }
 }

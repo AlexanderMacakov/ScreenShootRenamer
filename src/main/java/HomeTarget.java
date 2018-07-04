@@ -6,13 +6,17 @@ import java.io.InputStreamReader;
 
 public class HomeTarget {
     public static void main(String[] args) throws IOException {
+
+        new File("RefFiles").mkdir();
+        new File("Compiling").mkdir();
+
         File[] filesList;
-        new File("D:\\ScreenShootRenamer").mkdir();
-        Faq.context();
+        Faq.preview();
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         String choise;
 
         while (true) {
+            Faq.context();
             choise = reader.readLine();
             if (choise.equals("1")) {
                 StartParse startParse = new StartParse();
@@ -38,7 +42,7 @@ public class HomeTarget {
                     } else{
                         System.out.println("Ля, выбери что-то из меню, другого не дано");
                     }
-
+                    System.out.println("--------------------------------------------------------------");
                 }
 
             }
