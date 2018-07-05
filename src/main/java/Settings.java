@@ -23,7 +23,7 @@ public class Settings {
 
     public String getDate() {
         Date dateNow = new Date();
-        SimpleDateFormat formatForDateNow = new SimpleDateFormat("dd.MM.yyyy");
+        SimpleDateFormat formatForDateNow = new SimpleDateFormat("вdd.MM.yyyy");
         return formatForDateNow.format(dateNow);
     }
 

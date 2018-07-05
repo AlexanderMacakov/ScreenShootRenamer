@@ -15,4 +15,6 @@ public class Faq {
         System.out.println("4) - Выход");
 
     }
+
+    //todo сделать рефакторинг кода
 }
