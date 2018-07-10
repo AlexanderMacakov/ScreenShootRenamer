@@ -3,7 +3,7 @@ ScreenShootRenamer
 
 Переименовывавает файлы из директории `/RefFiles` в директорию `/Compiling`
 
-##### Structure project
+### Structure project
 
 ```
 \bin
@@ -12,7 +12,7 @@ ScreenShootRenamer
  StartSSR.bat
 ```
 
-##### how to start the application
+### how to start the application
 
 Запутить StartSSR.bat
 
