@@ -12,8 +12,9 @@ ScreenShootRenamer
  StartSSR.bat
 ```
 
-### how to start the application
+### How to start the application
 
+Скачать папку SSR
 Запутить StartSSR.bat
 
 TODO
