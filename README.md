@@ -1,7 +1,7 @@
 ScreenShootRenamer
 -----------------
 
-Переименовывавает файлы из директории `/RefFiles` в директорию `/Compiling`
+Переименовывает файлы из директории `/RefFiles` в директорию `/Compiling`
 
 ### Structure project
 
